@@ -13,7 +13,7 @@
 6. true and 1 == 1
 > true
 7. false and 0 != 0
-> true
+> false
 8. true or 1 == 1
 > true
 9. "test" == "testing"
@@ -25,7 +25,7 @@
 12. "test" == 1
 > false
 13. not (true and false)
-> false
+> true
 14. not (1 == 1 and 0 != 1)
 > false
 15. not (10 == 1 or 1000 == 1000)
