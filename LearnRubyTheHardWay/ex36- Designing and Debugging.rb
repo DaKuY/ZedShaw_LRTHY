@@ -44,9 +44,19 @@
 # at a time.
 # Just start doing it, do a small version, make it bigger, keep a list of things to do, and do them.
 
-# To DO:
-# A1. Come up with an idea or a theme
-# A2. Design the layout of the rooms
-# A3. Design the choices in each rooms
+# TODO:
+# A1. Come up with an idea or a theme. Theme: Do you know Jesus?
+# A2. Design the layout of the rooms. 
+# ---------------------------------------------------------------
+# |                           	|								|
+# |  							| 								|
+# |								|								|
+# |								|								|
+# |								|								|
+# |								|								|
+# |								|								|
+# |								|								|
+# ---------------------------------------------------------------
+# A3. Design the choices in each rooms.
 # B1. Design the functions 
 # B2. Make sure to use Arrays, Functions, Comments, Save state (save to a file), boolean, loops, if-statements
