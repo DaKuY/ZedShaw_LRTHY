@@ -49,14 +49,14 @@
 # A2. Design the layout of the rooms. 
 # ---------------------------------------------------------------
 # |    Box 1	|     Box 2    	|	 Box 3   	|	 Box 4		|
-# | Know Jesus?	|				| 				|				|
-# |				|				|				|				|
-# |				|				|				|				|
-# ---------------------------------------------------------------
-# |				|				|				|				|
-# |				|				|				|				|
-# |				|				|				|				|
-# |				|				|				|				|
+# | Know Jesus?	|Do you know if	| Do you know	|				|
+# |				|you are going	|What God gave	|				|
+# |				| to heaven?	|   for you?	|				|
+# --------------------------------------------------------------
+# |	   Box 5	|	   Box 6	|	   Box 7	|	   Box 8	|
+# |				|Rededicate		|Prayer asking	|	Celebrate!  |
+# |				|your life to 	|Jesus into		|				|
+# |				|Jesus?			|their heart	|				|
 # ---------------------------------------------------------------
 # A3. Design the choices in each rooms.
 # B1. Design the functions 
