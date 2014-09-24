@@ -49,15 +49,47 @@
 # A2. Design the layout of the rooms. 
 # ---------------------------------------------------------------
 # |    Box 1	|     Box 2    	|	 Box 3   	|	 Box 4		|
-# | Know Jesus?	|Do you know if	| Do you know	|				|
-# |				|you are going	|What God gave	|				|
-# |				| to heaven?	|   for you?	|				|
+# | Know Jesus?	|Do you know if	| Do you know	|Romans 3:23	|
+# |yes - Box6	|you are going	|What God gave	|Romans 10:9-10	|
+# |no- Box2		| to heaven?	|for you?John316|Grace Faith	|
+# |				|yes-6 no-3		|yes-6 no-4		|box4
 # --------------------------------------------------------------
 # |	   Box 5	|	   Box 6	|	   Box 7	|	   Box 8	|
-# |				|Rededicate		|Prayer asking	|	Celebrate!  |
-# |				|your life to 	|Jesus into		|				|
-# |				|Jesus?			|their heart	|				|
+# |Change your 	|Rededicate		|Prayer asking	|	Celebrate!  |
+# |ways, change	|your life to 	|Jesus into		|				|
+# |thewayyoulive|Jesus?			|their heart	|				|
+# |box6			|yes-6 no-8		| box8			| end			|
 # ---------------------------------------------------------------
 # A3. Design the choices in each rooms.
 # B1. Design the functions 
 # B2. Make sure to use Arrays, Functions, Comments, Save state (save to a file), boolean, loops, if-statements
+
+def prompt()
+  print "> "
+end
+
+def box1()
+end
+
+def box2()
+end
+
+def box3()
+end
+
+def box4()
+end
+
+def box5()
+end
+
+def box6()
+end
+
+def box7()
+end
+
+def box8()
+end
+
+box1()
