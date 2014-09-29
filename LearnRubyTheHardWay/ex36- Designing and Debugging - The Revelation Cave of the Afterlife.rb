@@ -50,15 +50,15 @@
 # ---------------------------------------------------------------
 # |  entrance	| The Saved    	|The Sacrifice  | The Action	|
 # | After Death	|	how do		| Do you know	|Romans 3:23	|
-# |hell - Box2	| you know?		|What God gave	|Romans 10:9-10	|
-# |heaven- Box2	| Jesus-3 		|for you?John316|Grace Faith	|
-# |	else - Box2 |	no-4		|yes-6 no-4		|box4			|
+# |hell-condemn | you know?		|What God gave	|Romans 10:9-10	|
+# |heaven- saved| Jesus-action	|for you?John316|Grace Faith	|
+# |else-condemn |else-sacrifice	| The Action	|	The Choice	|
 # --------------------------------------------------------------
 # |	The Choice	| The Condemned	| The New Belief|The Revelation	|
 # |Change your 	|Let me show you|Prayer asking	|	Celebrate!  |
 # |ways, change	|what you are 	|Jesus into		|				|
 # |thewayyoulive|getting into	|their heart	|				|
-# |box6			|yes-6 no-8		| box8			| end			|
+# |y-new n-cond	|ok-sac no-end	| Revelation	| end			|
 # ---------------------------------------------------------------
 # A3. Design the choices in each rooms.
 # B1. Design the functions 
