@@ -65,45 +65,72 @@
 # B2. Make sure to use Arrays, Functions, Comments, Save state (save to a file), boolean, loops, if-statements
 
 def prompt()
-  print "> "
+  print "\n> ";
 end
 
-def box1()
-  print "You walk into 'The Revelation Cave of the Afterlife' and see a wise old man. 
-  Wise Old Man(With a creepy slow voice): 'Hey There! I have a question for ya. 
-  What do you think is going to happen to you after you die?'"
+def wait(time)
+  sleep(time);
+end
+
+def entrance()
+  print "\n\nYou walk into 'The Revelation Cave of the Afterlife' and see a wise old man.
+Wise Old Man(With a creepy slow voice): 'Hey There! I have a question for ya.\nWhat do you think is going to happen to you after you die?'"
   
   prompt;  next_move = gets.chomp
   
   if next_move.include? "heaven"
-    
+    theSaved();
   elsif next_move.include? "hell"
-    dead("Well that was tasty!")
+    theCondemned();
   else
-    cthulu_room()
+    theCondemned();
   end
   
 end
 
-def box2()
+def theSaved()
+  print "\nHow do you know?\nDo you Know Jesus?"
+  
+  prompt; next_move = gets.chomp
+  
+  if next_move == "yes"
+    theAction();
+  elsif next_move == "no" || next_move == "maybe" || next_move == "kind of"
+    theSacrifice();
+  else
+    print "huh? Let me try to ask you again.";
+	wait(1.5);
+	theSaved();
+  end
+  
 end
 
-def box3()
+def theSacrifice()
 end
 
-def box4()
+def theAction()
+  print "\nRomans 3:23 says, 'For all have sinned, and come short of the glory of God.'";
+  wait(5);
+  print "\n\nRomans 10:9-10 says, 'that if you confess with your mouth the Lord Jesus and \nbelieve in your heart that God has raised Him from the dead, you will be saved.'";
+  wait(11);
+  print "\nEphesians 2:8-9 says, 'For it is by grace you have been saved, through faith-and this is not from yourselves, it is the gift of God - not by works, so that no \none can boast.'"
+  wait(14);
+  
+  theChoice();
+
 end
 
-def box5()
+def theChoice()
 end
 
-def box6()
+def theCondemned()
+  print "Condemned";
 end
 
-def box7()
+def theNewBelief()
 end
 
-def box8()
+def theRevelation()
 end
 
-box1()
+entrance();
