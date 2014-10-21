@@ -121,6 +121,7 @@ def theAction()
 end
 
 def theChoice()
+#TODO: He died on the cross (explain crucifixion) for you. Will you accept Jesus Christ as your Lord and Saviour?
 end
 
 def theCondemned()
